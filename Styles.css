@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono' ;
+    color: rgb(49, 61, 51);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: url(pexels-philippe-donn-1114690.jpg);
+    background-size: cover;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.nav-main{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav-main li{
+    padding:0 4.5%;
+}
+
+nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+#head-main {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    font-size: 4em;
+    color: rgba(255, 255, 255, .3);
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Metal Mania', cursive;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.img-class {
+    float: left;
+    width: 300px;
+    margin: 17px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    display: inline;
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav img:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: 2em 36% 2em 36%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+}
+
+.music-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom:1em ;
+}
+
+.music-row:last-child{
+    border-bottom: none;
+}
+
+.music-item{
+    display: inline-block;
+    padding: .5em;
+}
+
+.muaic-name{
+    color: #555;
+    font-weight: bold;
+    width: 20%;
+}
+
+.music{
+    width: 30%;
+
+}
+
+.music-btn {
+    max-width: 19%;
+
+}
+
+.btn-primary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #2D9CDB;
+}
